@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Basic Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+/* Profile Container Styling */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Profile Card Styling */
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header Section */
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.profile-header h2 {
+    margin: 0;
+}
+
+/* About Me Section */
+.about {
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills {
+    margin-bottom: 20px;
+}
+
+.skills h3 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+/* Contact Section */
+.contact {
+    margin-bottom: 20px;
+}
+
+.contact h3 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact li {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
